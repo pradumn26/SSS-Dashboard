@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "222907171838",
+    "firebase_url": "https://sss-test-6b913.firebaseio.com",
+    "project_id": "sss-test-6b913",
+    "storage_bucket": "sss-test-6b913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222907171838:android:dc0bedff3fae3e54",
+        "android_client_info": {
+          "package_name": "com.example.pradumn.sssdashboard_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222907171838-eoi3rrqt6ph3d1duh0s3b1hg6nujaad9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD88YZAa3t8rSOYXcM0-oKNbm-ICQa7lJw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

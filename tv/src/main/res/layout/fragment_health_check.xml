@@ -1,0 +1,219 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafbfc"
+    android:orientation="vertical"
+    tools:context="com.example.pradumn.sssdashboard_2.Fragments.HealthCheckFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            app:cardBackgroundColor="#fff">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="#149bc3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Website"
+                    android:textColor="#fff"
+                    android:textSize="30sp" />
+            </android.support.v7.widget.CardView>
+
+            <com.skyfishjy.library.RippleBackground
+                android:id="@+id/website_pulse"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:rb_color="#cd2627"
+                app:rb_radius="64dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="10">
+
+                <ImageView
+                    android:id="@+id/website_imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/check" />
+            </com.skyfishjy.library.RippleBackground>
+
+            <TextView
+                android:id="@+id/website_status_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="200dp"
+                android:text="The website is running fine"
+                android:textColor="#000" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            app:cardBackgroundColor="#fff">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="#149bc3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="SMS Gateway"
+                    android:textColor="#fff"
+                    android:textSize="30sp" />
+            </android.support.v7.widget.CardView>
+
+            <com.skyfishjy.library.RippleBackground
+                android:id="@+id/sms_pulse"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:rb_color="#cd2627"
+                app:rb_radius="64dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="10">
+
+                <ImageView
+                    android:id="@+id/sms_imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/check" />
+            </com.skyfishjy.library.RippleBackground>
+
+            <TextView
+                android:id="@+id/sms_status_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="200dp"
+                android:text="The SMS gateway is running fine"
+                android:textColor="#000" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            app:cardBackgroundColor="#fff">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="#149bc3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Email Server"
+                    android:textColor="#fff"
+                    android:textSize="30sp" />
+            </android.support.v7.widget.CardView>
+
+            <com.skyfishjy.library.RippleBackground
+                android:id="@+id/email_pulse"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:rb_color="#cd2627"
+                app:rb_radius="64dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="10">
+
+                <ImageView
+                    android:id="@+id/email_imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/check" />
+            </com.skyfishjy.library.RippleBackground>
+
+            <TextView
+                android:id="@+id/email_status_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="200dp"
+                android:text="The E-mail server is running fine"
+                android:textColor="#000" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            app:cardBackgroundColor="#fff">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="#149bc3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Order Mech"
+                    android:textColor="#fff"
+                    android:textSize="30sp" />
+            </android.support.v7.widget.CardView>
+
+            <com.skyfishjy.library.RippleBackground
+                android:id="@+id/order_pulse"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:rb_color="#cd2627"
+                app:rb_radius="64dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="10">
+
+                <ImageView
+                    android:id="@+id/order_imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/check" />
+            </com.skyfishjy.library.RippleBackground>
+
+            <TextView
+                android:id="@+id/order_status_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="200dp"
+                android:text="The Order mechanism is running fine"
+                android:textColor="#000" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

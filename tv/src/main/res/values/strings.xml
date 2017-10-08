@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SSS Dashboard-2</string>
+
+    <!-- my string-arrays -->
+    <string-array name="fragment_names">
+        <item>Health Check</item>
+        <item>Orders Count</item>
+        <item>Orders Dispatched</item>
+    </string-array>
+    <string-array name="orders_count_types">
+        <item>Daily</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <!-- my strings -->
+    <string name="company_name">SSS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

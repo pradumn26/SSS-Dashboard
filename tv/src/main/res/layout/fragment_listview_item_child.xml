@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_expandableListView_textView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fontFamily="casual"
+    android:padding="20dp"
+    android:textColor="#fff"
+    android:textSize="20sp"
+    android:textStyle="bold" />

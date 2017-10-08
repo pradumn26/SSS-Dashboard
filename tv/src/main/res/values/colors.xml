@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="listview_item_selected_color">#1C262F</color>
+    <color name="listview_item_not_selected_color">#00000000</color>
+    <color name="green_400">#66BB6A</color>
+    <color name="yellow_400">#FFEE58</color>
+    <color name="red_400">#EF5350</color>
+    <color name="blue_400">#42A5F5</color>
+    <color name="cyan_50">#E0F7FA</color>
+    <color name="cyan_100">#B2EBF2</color>
+    <color name="purple_200">#CE93D8</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="indigo_900">#1A237E</color>
+    <color name="indigo_200">#9FA8DA</color>
+</resources>
